@@ -41,7 +41,7 @@ df = load_data()
 st.markdown(
 	"<div style='background:#black;padding:12px;border-radius:8px'>"
 	"<strong>What this does:</strong> We trained two models that predict whether daily revenue will be <em>High</em> or <em>Low</em> based on the day's temperature. "
-	"<br>High means revenue is at or above the historical median. The SVM model is recommended for live prediction here." 
+	"<br>High means revenue is at or above the historical median. The SVM model is recommended for live prediction here."
 	"</div>",
 	unsafe_allow_html=True,
 )
@@ -177,9 +177,10 @@ with st.expander("Technical details (classification reports & confusion matrices
 
 st.caption("Built from `training_notebook.ipynb` — models trained on the provided `Ice_Cream.csv` dataset.")
 
-# Small centered footer credit (CHANGE APPLIED HERE)
+# Small centered footer credit
 st.markdown(
 	"<div style='text-align:center;margin-top:18px;color:#6c757d;font-size:14px'> Developed by **Nimra** for Sir ZEESHAN with ❤️</div>",
 	unsafe_allow_html=True,
 )
+
 
