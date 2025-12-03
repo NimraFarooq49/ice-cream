@@ -1,0 +1,5 @@
+streamlit
+plotly
+pandas # As you're using pandas and other libraries are in your logs
+numpy
+# Add any other libraries your app uses
