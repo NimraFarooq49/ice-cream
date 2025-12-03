@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-import joblib
+import joblib # This is the library that needs to be installed
 import numpy as np
 import pandas as pd
 
@@ -182,6 +182,7 @@ st.markdown(
 	"<div style='text-align:center;margin-top:18px;color:#6c757d;font-size:14px'> Developed by **Nimra** for Sir ZEESHAN with ❤️</div>",
 	unsafe_allow_html=True,
 )
+
 
 
 
